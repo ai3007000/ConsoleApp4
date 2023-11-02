@@ -8,11 +8,11 @@ namespace ConsoleApp3.ConsoleApp3
     {
         static void Main()
         {
-            showData(GetPurple());
+            ShowData(GetPurple());
 
         }
 
-        static void showData((string FirstName, string LastName, int Age, string[] NamesOfPet, string[] FavoriteColores) User)
+        static void ShowData((string FirstName, string LastName, int Age, string[] NamesOfPet, string[] FavoriteColores) User)
         {
             Console.WriteLine($"Имя: {User.FirstName}\nФамилия: {User.LastName}");
             Console.WriteLine($"Возраст: {User.Age}");
