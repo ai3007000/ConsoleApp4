@@ -9,6 +9,7 @@ namespace ConsoleApp3.ConsoleApp3
         static void Main()
         {
             showData(GetPurple());
+
         }
 
         static void showData((string FirstName, string LastName, int Age, string[] NamesOfPet, string[] FavoriteColores) User)
