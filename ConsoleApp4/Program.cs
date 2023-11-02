@@ -120,9 +120,9 @@ namespace ConsoleApp3.ConsoleApp3
         static void NameOfPet(int numPet, out string[] NamesOfPet)
         {
             NamesOfPet = new string[numPet];
-            for (int i = 1; i <= numPet; i++)
+            for (int i = 0; i < numPet; i++)
             {
-                Console.WriteLine($"Кличка питомца №{i}:");
+                Console.WriteLine($"Кличка питомца:");
 
                 while (true)
                 {
